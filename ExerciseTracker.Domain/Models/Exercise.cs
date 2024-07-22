@@ -1,6 +1,6 @@
 ﻿namespace ExerciseTracker.Domain.Models;
 
-class Exercise
+public class Exercise
 {
     public int Id { get; set; }
     public DateTime DateStart { get; set; }
